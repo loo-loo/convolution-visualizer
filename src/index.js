@@ -513,7 +513,7 @@ class Viewport extends React.Component {
         // If the output is the animated one, darken it, so we can
         // see the animation.
         if (i === animatedH && j === animatedW) {
-          return color.darker(1);
+          // return color.darker(1);
         }
         return color;
       };
