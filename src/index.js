@@ -417,7 +417,7 @@ class Viewport extends React.Component {
         // Otherwise, if the output is animated, display it as a lighter
         // gray
         if (animatedH === i && animatedW === j) {
-          return whiten(base, 0.8);
+          // return whiten(base, 0.8);
         }
       };
 
